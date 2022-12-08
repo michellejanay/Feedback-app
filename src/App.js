@@ -5,7 +5,7 @@ const App = () => {
     <>
     <Header />
     <div>
-      <h1>My App</h1>
+      <h1>Feedback App</h1>
     </div>
     </>
   );
