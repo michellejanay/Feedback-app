@@ -1,11 +1,8 @@
 const FeedbackItem = ({item}) => {
-    const [rating, setRating] = useState(9);
-    const [text, setText] = useState('This is a feedback item')
-
   return (
     <div className='card'>
-        <h3 className="num-display">{rating}</h3>
-        <p className="text-display">{text}</p>
+        <h3 className="num-display">{item.rating}</h3>
+        <p className="text-display">{item.text}</p>
     </div>
   )
 }
