@@ -1,12 +1,13 @@
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Feedbackitem from "./components/Feedbackitem";
 
 const App = () => {
   return (
     <>
-    <Header />
-    <div>
-      <h1>My App</h1>
-    </div>
+      <Header />
+      <div className="container">
+        <Feedbackitem />
+      </div>
     </>
   );
 };
