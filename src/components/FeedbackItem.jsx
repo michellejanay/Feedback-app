@@ -1,6 +1,4 @@
-import React, {useState} from 'react'
-
-const Feedbackitem = () => {
+const FeedbackItem = ({item}) => {
     const [rating, setRating] = useState(9);
     const [text, setText] = useState('This is a feedback item')
 
@@ -12,4 +10,4 @@ const Feedbackitem = () => {
   )
 }
 
-export default Feedbackitem
+export default FeedbackItem

@@ -19,8 +19,7 @@ ul {
 
 .container {
   max-width: 768px;
-  margin: auto;
-  padding: 0 20px;
+  margin: 0 2rem;
 }
 
 header {
@@ -30,6 +29,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  padding: 0 1rem;
 }
 .card {
     background-color: #fff;
