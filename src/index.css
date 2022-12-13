@@ -13,6 +13,13 @@ body {
   line-height: 1.6;
 }
 
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 ul {
   list-style: none;
 }
@@ -129,7 +136,10 @@ header {
     top: -10px;
     left: -10px;
   }
-  
+  .close{
+    font-weight: bold;
+    color: purple;
+  }
   .close,
   .edit {
     position: absolute;

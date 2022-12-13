@@ -1,9 +1,12 @@
+import Card from "./shared/Card";
+
 const FeedbackItem = ({item}) => {
   return (
-    <div className='card'>
-        <h3 className="num-display">{item.rating}</h3>
-        <p className="text-display">{item.text}</p>
-    </div>
+    <Card element={item}  reverse={false}>
+      <h3 className="num-display">{item.rating}</h3>
+      <button className="close">x</button>
+      <p className="text-display">{item.text}</p>
+    </Card>
   )
 }
 
